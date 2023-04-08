@@ -27,8 +27,8 @@ body {
 
 .tecla {
   border-radius: 30px;
-  box-shadow: 3px 3px 0 var(--cinza);
-  color: white;
+  border: 2px solid white;
+  color: black;
   cursor: pointer;
   height: 120px;
   font-size: 1.75em;
@@ -96,16 +96,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 0.1em;
   }
   .tecla {
-    border-radius: 30px;
-    box-shadow: 3px 3px 0 var(--cinza);
-    color: white;
+    border-radius: 10px;
+
+    color: black;
     cursor: pointer;
-    height: 5rem;
+    height: 4.5 rem;
     font-size: 1.75em;
     font-weight: bold;
     text-align: center;
-    width: 5rem;
+    width: 4.5rem;
   }
 }
