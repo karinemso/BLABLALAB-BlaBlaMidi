@@ -64,6 +64,9 @@ body {
  .tecla_si{
   background-color: blue;
 }
+.tecla_do2{
+  background-color: rgb(255, 0, 212);
+}
 
 .tecla.ativa,
 .tecla:active {
